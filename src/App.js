@@ -44,6 +44,7 @@ class App extends Component {
         <Route path="/" exact component={Home}/>
         <Route path="/airports" component={Airport}/>
         <Route path="/cities" component={City}/>
+        <Route path="/renderme" render={() => (<div>Render me</div>)} />
       </div>
     )
   }
