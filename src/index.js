@@ -5,10 +5,11 @@ import './index.css';
 import App from './App';
 import Authentication from './Authentication';
 import CustomLink from './CustomLink';
+import SideBar from './SideBar';
 import registerServiceWorker from './registerServiceWorker';
 
 ReactDOM.render(
     <Router>
-        <CustomLink />
+        <SideBar />
     </Router>, document.getElementById('root'));
 registerServiceWorker()
